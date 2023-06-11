@@ -1,0 +1,4 @@
+name: SpigotKiss
+version: 1.0.0
+main: io.github.kaisomir.SpigotKiss
+api-version: '1.20'
