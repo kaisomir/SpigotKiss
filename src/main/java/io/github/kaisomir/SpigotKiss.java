@@ -29,7 +29,7 @@ public class SpigotKiss extends JavaPlugin implements Listener {
         Entity interacted = event.getRightClicked();
         if (interacted.getType().equals(EntityType.PLAYER) && p.isSneaking())
         {
-            p.getWorld().spawnParticle(Particle.HEART, interacted.getLocation().add(0,1.8,0),1);
+            p.getWorld().spawnParticle(Particle.HEART, interacted.getLocation().add(Math.random()-0.5,1.8+Math.random()*0.5-0.25,Math.random()-0.5),1);
         }
     }
 }
